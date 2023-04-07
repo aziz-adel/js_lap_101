@@ -174,5 +174,56 @@ console.log(message);
             break;
          }
 
+         // next ex( For loop):
+         for(let i = 1;i<=5;i ++){
+            console.log(i);
 
+         }
+         // next ex( Decrement For):
+         for( let m = 5;m>=1;m--){
+            console.log(m);
+
+         }
+         
+
+         // next ex( For loop and array):
+         const ar = ['red','green','blue','white','black']
+         for(let f =0;f<ar.length;f ++){
+            console.log(ar[f])
+
+         }
+
+         // next ex( For of):
+         for(let ff of ar){
+            console.log(ar)
+         }
         
+         // next ex( For of and string ):
+         const ma = 'welcome to js'
+         for(let character of ma){
+
+            console.log(character);
+         }
+
+         // next ex( While and do while  ):
+       /*  i =0;
+         do{
+            console.log(ar)
+            i++;
+
+        }while(f<ar.length){
+            console.log(ar[i])
+            i ++;
+         }
+         
+         */
+
+
+         //quiz
+         let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+for (num of numbers ) {
+    if (num == 5) {
+        continue
+    }
+    console.log(num)
+}
